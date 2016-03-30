@@ -140,7 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rm -rf $BUILT_PRODUCTS_DIR/ZendeskSDK.framework\nrm -rf $BUILT_PRODUCTS_DIR/ZendeskProviderSDK.framework\ncp -R Pods/ZendeskSDK/ZendeskSDK.framework $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskProviderSDK.framework $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskSDK.bundle $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskSDKStrings.bundle $BUILT_PRODUCTS_DIR";
+			shellScript = "rm -rf $BUILT_PRODUCTS_DIR/ZendeskSDK.framework\nrm -rf $BUILT_PRODUCTS_DIR/ZendeskProviderSDK.framework\nrm -rf $BUILT_PRODUCTS_DIR/ZendeskSDK.bundle\nrm -rf $BUILT_PRODUCTS_DIR/ZendeskSDKStrings.bundle\ncp -R Pods/ZendeskSDK/ZendeskSDK.framework $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskProviderSDK.framework $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskSDK.bundle $BUILT_PRODUCTS_DIR\ncp -R Pods/ZendeskSDK/ZendeskSDKStrings.bundle $BUILT_PRODUCTS_DIR";
 		};
 /* End PBXShellScriptBuildPhase section */
 
