@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B8016741CAC3C7B00B210A8 /* ZendeskProviderSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8016731CAC3C7B00B210A8 /* ZendeskProviderSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B80167A1CAC3D9700B210A8 /* ZendeskProviderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEBF7321CAB5B30003AC281 /* ZendeskProviderSDK.framework */; };
 		8BEBF7371CAB5B30003AC281 /* ZendeskSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBF7331CAB5B30003AC281 /* ZendeskSDK.bundle */; };
 		8BEBF7381CAB5B30003AC281 /* ZendeskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEBF7341CAB5B30003AC281 /* ZendeskSDK.framework */; };
 		8BEBF7391CAB5B30003AC281 /* ZendeskSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBF7351CAB5B30003AC281 /* ZendeskSDKStrings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B8016711CAC3C7B00B210A8 /* ZendeskProviderSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZendeskProviderSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8016731CAC3C7B00B210A8 /* ZendeskProviderSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendeskProviderSDK.h; sourceTree = "<group>"; };
 		8B8016751CAC3C7B00B210A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEBF7211CAB568A003AC281 /* ZenDeskSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenDeskSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,14 +23,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B80166D1CAC3C7B00B210A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B80167A1CAC3D9700B210A8 /* ZendeskProviderSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BEBF71D1CAB568A003AC281 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				8BEBF7211CAB568A003AC281 /* ZenDeskSDK.framework */,
-				8B8016711CAC3C7B00B210A8 /* ZendeskProviderSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,14 +66,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8B80166E1CAC3C7B00B210A8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B8016741CAC3C7B00B210A8 /* ZendeskProviderSDK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BEBF71E1CAB568A003AC281 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,25 +76,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8B8016701CAC3C7B00B210A8 /* ZendeskProviderSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B8016781CAC3C7B00B210A8 /* Build configuration list for PBXNativeTarget "ZendeskProviderSDK" */;
-			buildPhases = (
-				8B80166C1CAC3C7B00B210A8 /* Sources */,
-				8B80166D1CAC3C7B00B210A8 /* Frameworks */,
-				8B80166E1CAC3C7B00B210A8 /* Headers */,
-				8B80166F1CAC3C7B00B210A8 /* Resources */,
-				8B8016791CAC3CB700B210A8 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ZendeskProviderSDK;
-			productName = ZendeskProviderSDK;
-			productReference = 8B8016711CAC3C7B00B210A8 /* ZendeskProviderSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8BEBF7201CAB568A003AC281 /* ZenDeskSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEBF7291CAB568A003AC281 /* Build configuration list for PBXNativeTarget "ZenDeskSDK" */;
@@ -143,9 +104,6 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Harry Tormey";
 				TargetAttributes = {
-					8B8016701CAC3C7B00B210A8 = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					8BEBF7201CAB568A003AC281 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -164,19 +122,11 @@
 			projectRoot = "";
 			targets = (
 				8BEBF7201CAB568A003AC281 /* ZenDeskSDK */,
-				8B8016701CAC3C7B00B210A8 /* ZendeskProviderSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B80166F1CAC3C7B00B210A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BEBF71F1CAB568A003AC281 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,19 +139,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B8016791CAC3CB700B210A8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -rf $BUILT_PRODUCTS_DIR/ZendeskProviderSDK.framework\ncp -R Pods/ZendeskSDK/ZendeskProviderSDK.framework $BUILT_PRODUCTS_DIR";
-		};
 		8BEBF7311CAB579F003AC281 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,13 +155,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B80166C1CAC3C7B00B210A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8BEBF71C1CAB568A003AC281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,46 +165,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8B8016761CAC3C7B00B210A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/ZendeskSDK",
-				);
-				INFOPLIST_FILE = ZendeskProviderSDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = harrytormey.ZendeskProviderSDK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8B8016771CAC3C7B00B210A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/ZendeskSDK",
-				);
-				INFOPLIST_FILE = ZendeskProviderSDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = harrytormey.ZendeskProviderSDK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		8BEBF7271CAB568A003AC281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -410,14 +300,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B8016781CAC3C7B00B210A8 /* Build configuration list for PBXNativeTarget "ZendeskProviderSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B8016761CAC3C7B00B210A8 /* Debug */,
-				8B8016771CAC3C7B00B210A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		8BEBF71B1CAB568A003AC281 /* Build configuration list for PBXProject "ZenDesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
