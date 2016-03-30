@@ -4,14 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ZenDesk.xcscheme_^#shared#^_</key>
+		<key>ZenDeskSDK.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ZendeskProviderSDK.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8B8016701CAC3C7B00B210A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8BEBF7201CAB568A003AC281</key>
 		<dict>
 			<key>primary</key>
